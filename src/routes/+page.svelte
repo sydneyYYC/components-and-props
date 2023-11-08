@@ -1,7 +1,6 @@
 <script>
   import Card from "../lib/components/Card.svelte";
   import Header from "../lib/components/Header.svelte";
-  
   import {cardOne} from "../lib/data.js";
   import {cardTwo} from "../lib/data.js";
   import {cardThree} from "../lib/data.js";
