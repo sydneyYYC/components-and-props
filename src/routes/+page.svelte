@@ -1,21 +1,17 @@
 <script>
   import Card from "../lib/components/Card.svelte";
-import Footer from "../lib/components/Footer.svelte";
   import Header from "../lib/components/Header.svelte";
-  import NavBar from "../lib/components/NavBar.svelte";
-
-  let cardTitle = "Title";
-  let cardDescription = "Description of the card harharharharhar";
-  let cardImg = {
-  src:"./gallery/header_theme-photos-Hx7xdwhj2AY-unsplash.jpg", alt:"hands kneading dough"
-}
-  let cardLink = "/"
+  import {cardOne} from "../lib/data.js";
+  import {cardTwo} from "../lib/data.js";
 </script>
 
 <Header></Header>
-<main class="min-h-screen flex flex-col">
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<main class="min-h-screen flex flex-col items-center">
+<h1 class="my-4 text-2xl">Welcome to my Baking Website</h1>
 
-<Card {...cardImg} {cardLink} {cardTitle}  {cardDescription}/>
+
+<Card {...cardOne}/>
+
+<Card {...cardTwo}/>
 </main>
+
