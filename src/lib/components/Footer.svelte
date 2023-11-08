@@ -9,7 +9,7 @@ export let footItems = [
 <footer class="flex flex-col items-center justify-center bg-amber-900 text-amber-50">
   <ul class="flex">
     {#each footItems as {name, href}}
-    <li class="p-2 my-2"><a href={href}>{name}</a></li>
+    <li class="p-2 my-2 hover:bg-yellow-500 hover:rounded-md"><a href={href}>{name}</a></li>
     {/each}
   </ul>
   <p>&copy;Sydney Bruce</p>
