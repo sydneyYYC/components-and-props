@@ -6,7 +6,7 @@ export let footItems = [
     ]
 </script>
 
-<footer class="flex flex-col items-center justify-center bg-slate-900 text-violet-50">
+<footer class="flex flex-col items-center justify-center bg-amber-900 text-amber-50">
   <ul class="flex">
     {#each footItems as {name, href}}
     <li class="p-2 my-2"><a href={href}>{name}</a></li>

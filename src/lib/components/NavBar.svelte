@@ -7,8 +7,8 @@
 </script>
 
 <!-- TODO add hover -->
-<header class="max-w-full flex justify-between items-center bg-slate-900 text-violet-100">
-  <div class="p-2 hover:violet-500"> Logo </div>
+<header class="max-w-full flex justify-between items-center bg-amber-900 text-white">
+  <div class="p-2 hover:yellow-500"> Logo </div>
   <nav>
   <ul class="flex g-2">
     {#each navItems as {name, href}}
